@@ -1,0 +1,136 @@
+
+.dark-mode {
+    background-color: #1e1e1e;
+    color: #f1f1f1;
+  }
+  
+  .title {
+    text-align: center;
+    margin-top: 20px;
+    display: block;
+    width: 42%;
+    margin-left: 29%;
+    border-bottom: solid 1px white;
+}
+  
+  .input-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .weapon-input,
+  .number-input {
+    background-color: #2b2b2b;
+    border: none;
+    color: #f1f1f1;
+    padding: 8px 12px;
+    margin: 0 5px;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .weapon-input::placeholder,
+  .number-input::placeholder {
+    color: rgba(241, 241, 241, 0.5);
+  }
+  
+  .label {
+    color: #f1f1f1;
+    margin: 0 5px;
+    margin-top: 8px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .calculate-button {
+    background-color: #1E3D59;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .result {
+    text-align: center;
+    margin-top: 20px;
+  .dark-mode {
+  background-color: #1e1e1e;
+  color: #f1f1f1;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.weapon-input,
+.number-input {
+  background-color: #2b2b2b;
+  border: none;
+  color: #f1f1f1;
+  padding: 8px 12px;
+  margin: 0 5px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.weapon-input::placeholder,
+.number-input::placeholder {
+  color: rgba(241, 241, 241, 0.5);
+}
+
+.label {
+  color: #f1f1f1;
+  margin: 0 5px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.calculate-button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.result {
+  text-align: center;
+  margin-top: 20px;
+}}
+.help{
+    font-size: large;
+    background-color: #1E3D59;
+    border-radius: 4px;
+    box-shadow: none;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    color: white;
+}
+
+.helpdiv{
+    display: block;
+    float: right;
+    margin-right: 1%;
+}

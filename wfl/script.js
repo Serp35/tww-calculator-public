@@ -1,0 +1,3 @@
+function help() {
+  alert("This is a TWW trading calculator. You only have to enter your item name and serial, do not type any serial if your item does not have one. This calculator only supports serials avobe #800, and it may be updated in the future. Please, report any bugs. Donations are welcome :). Make sure to not misstype an item, and if you don't know the item name, or you don't find exact name we used, feel free to ask. Good luck trading!")
+}

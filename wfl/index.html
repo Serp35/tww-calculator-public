@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The Wild West Calculator</title>
+  <link rel="stylesheet" href="css2.css">
+  <link rel="icon" href="logo2.png" type="image/x-icon">
+      <meta name="viewport" content="width=device-width, initial-scale=1.4">
+</head>
+<body class="dark-mode">
+  <div class="helpdiv">
+    <button class="help" onclick="help()">?</buttonk>
+  </div>
+  <h1 class="title">TWW Calculator</h1>
+  <div class="input-container">
+    <input type="text" id="weapon-input" class="weapon-input" placeholder="Item"list="suggestions">
+    <label for="number-input" class="label">#</label>
+    <input type="number" id="number-input" class="number-input" placeholder="Serial">
+  </div>
+  <div class="input-container">
+    <input type="text" id="weapon-input2" class="weapon-input" placeholder="Item" list="suggestions">
+    <label for="number-input2" class="label">#</label>
+    <input type="number" id="number-input2" class="number-input" placeholder="Serial">
+  </div>
+  <div class="input-container">
+    <input type="text" id="weapon-input3" class="weapon-input" placeholder="Item"list="suggestions">
+    <label for="number-input3" class="label">#</label>
+    <input type="number" id="number-input3" class="number-input" placeholder="Serial">
+  </div>
+  <div class="input-container">
+    <input type="text" id="weapon-input4" class="weapon-input" placeholder="Item"list="suggestions">
+    <label for="number-input4" class="label">#</label>
+    <input type="number" id="number-input4" class="number-input" placeholder="Serial">
+  </div>
+  <div class="input-container">
+    <input type="text" id="weapon-input5" class="weapon-input" placeholder="Item"list="suggestions">
+    <label for="number-input5" class="label">#</label>
+    <input type="number" id="number-input5" class="number-input" placeholder="Serial">
+  </div>
+  <div class="input-container">
+    <input type="text" id="weapon-input6" class="weapon-input" placeholder="Item"list="suggestions">
+    <label for="number-input6" class="label">#</label>
+    <input type="number" id="number-input6" class="number-input" placeholder="Serial">
+  </div>
+  <div class="button-container">
+    <button class="calculate-button" onclick="calculateValue(); fee();">Calculate</button>
+  </div>
+  <p id="result" class="result"></p>
+  <datalist id="suggestions">
+    <option value="Lancaster"></option>
+    <option value="Prototype"></option>
+    <option value="Kukri"></option>
+    <option value="Axegonne"></option>
+    <option value="Spitfire"></option>
+    <option value="Paterson"></option>
+    <option value="Guycot Carbine"></option>
+    <option value="Guycot Pistol"></option>
+    <option value="Cursed Volcanic Pistol"></option>
+    <option value="Cursed Lantern"></option>
+    <option value="Occult Lantern"></option>
+    <option value="Occult Mule Shotgun"></option>
+    <option value="Occult Sawed Off"></option>
+    <option value="Ceremonial Dagger"></option>
+    <option value="Frozen Volcanic Rifle"></option>
+    <option value="Frozen Bow"></option>
+    <option value="Frozen Axe"></option>
+    <option value="Ancient Relic"></option>
+    <option value="Candy Cane"></option>
+    <option value="Stolen Present"></option>
+    <option value="Christmas Cookies"></option>
+    <option value="Ticket to santa's workshop"></option>
+    <option value="Guitar"></option>
+    <option value="Accordion"></option>
+    <option value="Fiddle"></option>
+    <option value="Trumpet"></option>
+    <option value="Flute"></option>
+    <option value="Harmonica"></option>
+    <option value="Drum"></option>
+  </datalist>
+  
+  <script src="script5.js"></script>
+  <script src="fee.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
+

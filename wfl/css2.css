@@ -1,0 +1,84 @@
+.dark-mode {
+    background-color: #1e1e1e;
+    color: #f1f1f1;
+}
+
+.title {
+    text-align: center;
+    margin-top: 28px; /* 20px * 1.4 */
+    display: block;
+    width: 58%; /* 42% * 1.4 */
+    margin-left: 21%; /* 29% * 1.4 */
+    border-bottom: solid 1px white;
+    font-size: 250%;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 14px; /* 10px * 1.4 */
+}
+
+.weapon-input,
+.number-input {
+    background-color: #2b2b2b;
+    border: none;
+    color: #f1f1f1;
+    padding: 11.2px 16.8px; /* 8px 12px * 1.4 */
+    margin: 0 7px; /* 5px * 1.4 */
+    border-radius: 6px;
+    font-size: 22.6px; /* 16px * 1.4 */
+}
+
+.weapon-input::placeholder,
+.number-input::placeholder {
+    color: rgba(241, 241, 241, 0.5);
+}
+
+.label {
+    color: #f1f1f1;
+    margin: 0 7px; /* 5px * 1.4 */
+    margin-top: 11.2px; /* 8px * 1.4 */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 28px; /* 20px * 1.4 */
+}
+
+.calculate-button {
+    background-color: #1E3D59;
+    border: none;
+    color: white;
+    padding: 14px 28px; /* 10px 20px * 1.4 */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22.4px; /* 16px * 1.4 */
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.result {
+    text-align: center;
+    margin-top: 28px; /* 20px * 1.4 */
+}
+
+.help {
+    font-size: 140%; /* You can adjust this if you want a specific size */
+    background-color: #1E3D59;
+    border-radius: 6px;
+    box-shadow: none;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    color: white;
+}
+
+.helpdiv {
+    display: block;
+    float: right;
+    margin-right: 1.4%; /* 1% * 1.4 */
+}
+
